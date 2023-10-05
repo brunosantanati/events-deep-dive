@@ -1,9 +1,9 @@
 name: Events Demo 1
 on:
   pull_request:
-    types:
+    types: # Activity Types
       - opened
-    branches:
+    branches: # Event Filters
       - main # main
       - 'dev-*' # dev-new dev-this-is-new
       - 'feat/**' # feat/new feat/new/button
